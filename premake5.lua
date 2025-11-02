@@ -13,3 +13,4 @@
 -- See the LICENSE file for details.
 
 include "workspace.lua"
+include "sandcastle.lua"
