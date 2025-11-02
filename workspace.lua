@@ -19,3 +19,5 @@ workspace "sandcastle"
 		"debug",
 		"release"
 	}
+
+	startproject "sandcastle"
