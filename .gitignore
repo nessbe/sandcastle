@@ -16,6 +16,12 @@ build/
 
 vendor/citadel/
 
+include/sandcastle/*
+source/*
+
+!include/sandcastle/.gitkeep
+!source/.gitkeep
+
 Makefile
 *.make
 
