@@ -16,3 +16,4 @@ include "workspace.lua"
 include "sandcastle.lua"
 
 include "vendor/citadel/citadel.lua"
+include "vendor/citadel/vendor/glad/glad.lua"
