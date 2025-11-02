@@ -30,6 +30,14 @@ project "sandcastle"
 		"include"
 	}
 
+	externalincludedirs {
+		"%{wks.location}/vendor/citadel/include"
+	}
+
+	links {
+		"citadel"
+	}
+
 	filter "configurations:debug"
 		defines "SANDCASTLE_DEBUG"
 		symbols "On"
