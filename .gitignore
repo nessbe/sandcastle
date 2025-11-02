@@ -14,5 +14,7 @@
 
 build/
 
+vendor/citadel/
+
 Makefile
 *.make
