@@ -31,7 +31,8 @@ project "sandcastle"
 	}
 
 	externalincludedirs {
-		"%{wks.location}/vendor/citadel/include"
+		"%{wks.location}/vendor/citadel/include",
+		"%{wks.location}/vendor/citadel/vendor/glad/include",
 	}
 
 	links {
